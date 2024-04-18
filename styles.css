@@ -1,0 +1,32 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.background {
+    width: 100%;
+    height: 100%; /* Each section takes up 25% of the viewport height */
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+#bg-1 {
+    height:50%;
+   /* Each section takes up 25% of the viewport height */
+    background-image: url('https://cdn.discordapp.com/attachments/1190314390923260065/1230339420474052678/Twitter1.png?ex=6632f5e0&is=662080e0&hm=70323a93d184f4180e52904a88d6bf6098678c97f4d255802e9cadeb75dc92c1&');
+}
+
+#bg-2 {
+    background-image: url('https://cdn.discordapp.com/attachments/1190314390923260065/1230331692292771871/image.png?ex=6632eead&is=662079ad&hm=44c293c1aba5c6ff862419887d7e2b00eb61bd8bd36848b9812a90c3e7fa8f92&');
+}
+
+#bg-3 {
+    height: 300%;
+    background-image: url('https://cdn.discordapp.com/attachments/1190314390923260065/1230330853956124755/image.png?ex=6632ede6&is=662078e6&hm=4e0e8d628b4e3c4457adb21323309a141a4bf4b3822e60189ae1ec681171cab2&');
+}
+
+#bg-4 {
+    background-image: url('path-to-your-fourth-image.jpg');
+}
